@@ -4,10 +4,17 @@ import pandas as pd
 
 def read_taxonomy_data():
     project_root = Path(__file__).parent
-    input_path = project_root / 'data' / 'raw' / 'Medicare_Provider_and_Supplier_Taxonomy_Crosswalk_Jan_2025.csv'
+    filename = 'taxonomy_data.csv'
+    input_path = project_root / 'data' / 'raw' / filename
+    pickle_path = project_root / 'data' / 'cache' / filename
 
     try:
-        taxonomy_df = pd.read_csv(input_path, dtype=str)
+        if os.path.exists(pickle_path):
+            taxonomy_df = pd.read_pickle(pickle_path)
+        else:
+            taxonomy_df = pd.read_csv(input_path, dtype=str)
+            taxonomy_df.to_pickle(pickle_path)
+
         taxonomy_df = taxonomy_df.drop(["MEDICARE SPECIALTY CODE","MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION"], axis=1)
 
         taxonomy_df = taxonomy_df.rename(
