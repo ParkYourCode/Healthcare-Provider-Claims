@@ -9,7 +9,7 @@ def download_data():
     subprocess.run([
         "kaggle", "datasets", "download",
         "-d", dataset_id,
-        "-p", "data/raw",
+        "-p", "../../data/raw",
         "--unzip"
     ], check=True)
 
