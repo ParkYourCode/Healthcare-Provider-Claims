@@ -28,6 +28,7 @@ def read_nppes_data() -> pd.DataFrame:
             nppes_df = pd.read_pickle(pickle_path)
         else:
             nppes_df = pd.read_csv(input_path, usecols=col_names+taxonomy_cols, dtype=str)
+            os.makedirs(os.path.dirname(pickle_path), exist_ok=True)
             nppes_df.to_pickle(pickle_path)
 
         # save sample nppes data

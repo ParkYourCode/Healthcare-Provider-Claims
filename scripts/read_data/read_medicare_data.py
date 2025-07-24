@@ -25,6 +25,7 @@ def read_medicare_data() -> pd.DataFrame:
             medicare_df = pd.read_pickle(pickle_path)
         else:
             medicare_df = pd.read_csv(input_path, usecols=col_names, dtype=str)
+            os.makedirs(os.path.dirname(pickle_path), exist_ok=True)
             medicare_df.to_pickle(pickle_path)
 
         # save sample medicare data

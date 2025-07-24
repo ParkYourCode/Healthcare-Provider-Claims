@@ -13,6 +13,7 @@ def read_taxonomy_data():
             taxonomy_df = pd.read_pickle(pickle_path)
         else:
             taxonomy_df = pd.read_csv(input_path, dtype=str)
+            os.makedirs(os.path.dirname(pickle_path), exist_ok=True)
             taxonomy_df.to_pickle(pickle_path)
 
         # save sample taxonomy data
