@@ -7,8 +7,9 @@ import pandas as pd
 def read_nppes_data() -> pd.DataFrame:
     """Reads public NPPES data and performs basic cleaning"""
     project_root = Path(__file__).parent
-    input_path = project_root / 'data' / 'raw' / 'npidata_pfile_20050523-20250713.csv'
-    pickle_path = project_root / 'data' / 'cache' / 'npidata_pfile_20050523-20250713.pkl'
+    filename = 'nppes_data.csv'
+    input_path = project_root / 'data' / 'raw' / filename
+    pickle_path = project_root / 'data' / 'cache' / filename
 
     col_names = [
         "NPI",
