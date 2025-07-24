@@ -3,5 +3,5 @@ __pycache__/
 *.py[cod]
 .idea/
 .DS_Store
-data/cache/*.pkl
-data/raw/*.csv
+data/cache/
+data/raw/
