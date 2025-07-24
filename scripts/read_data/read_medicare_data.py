@@ -5,8 +5,9 @@ import pandas as pd
 def read_medicare_data() -> pd.DataFrame:
     """Reads medicare data and performs basic cleaning"""
     project_root = Path(__file__).parent
-    input_path = project_root / 'data' / 'raw' / 'MUP_PHY_R25_P05_V20_D23_Prov_Svc.csv'
-    pickle_path = project_root / 'data' / 'cache' / 'MUP_PHY_R25_P05_V20_D23_Prov_Svc.pkl'
+    filename = 'medicare_data.csv'
+    input_path = project_root / 'data' / 'raw' / filename
+    pickle_path = project_root / 'data' / 'cache' / filename
 
     col_names = [
         "Rndrng_NPI",
