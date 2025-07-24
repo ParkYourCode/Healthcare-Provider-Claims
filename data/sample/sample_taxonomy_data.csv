@@ -1,0 +1,101 @@
+,MEDICARE SPECIALTY CODE,MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION,PROVIDER TAXONOMY CODE,"PROVIDER TAXONOMY DESCRIPTION:  TYPE, CLASSIFICATION, SPECIALIZATION"
+503,A5,Pharmacy ,3336H0001X,"Suppliers/Pharmacy, Home Infusion Therapy Pharmacy"
+408,86,Physician/Neuropsychiatry,2084N0008X,"Allopathic & Osteopathic Physicians/ Psychiatry & Neurology, Neuromuscular Medicine"
+1,02,Physician/General Surgery,208600000X,Allopathic & Osteopathic Physicians/Surgery
+236,41,Optometry,152WS0006X,"Eye and Vision Service Providers/Optometrist, Sports Vision"
+21,02,Physician/General Surgery,207XP3100X,Allopathic & Osteopathic Physicians/Orthopedic Surgery/Pediatric Orthopedic Surgery
+190,35,Chiropractic,111NX0800X,"Chiropractic Providers/Chiropractor, Orthopedic"
+467,97,Physician Assistant,363AS0400X,"Physician Assistants & Advanced Practice Nursing Providers/Physician Assistant, Surgical"
+16,02,Physician/General Surgery,207XS0114X,Allopathic & Osteopathic Physicians/Orthopedic Surgery/Adult Reconstructive Orthopedic Surgery
+61,11,Physician/Internal Medicine,207R00000X ,Allopathic & Osteopathic Physicians/Internal Medicine
+295,59,Ambulance Service Provider,3416A0800X,"Transportation Services/Ambulance, Air Transport"
+526,B4[14],Hospice,251G00000X,"Agencies/Hospice Care, Community Based"
+410,86,Physician/Neuropsychiatry,2084P0800X,"Allopathic & Osteopathic Physicians/ Psychiatry & Neurology, Psychiatry"
+439,89,Certified Clinical Nurse Specialist,364SP2800X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Perioperative"
+508,A5,Pharmacy ,3336N0007X,"Suppliers/Pharmacy, Nuclear Pharmacy"
+43,06,Physician/Cardiovascular Disease (Cardiology),207RC0000X,"Allopathic & Osteopathic Physicians/Internal Medicine, Cardiovascular Disease"
+41,05,Physician/Anesthesiology,207LP2900X,Allopathic & Osteopathic Physicians/Anesthesiology/Pain Medicine
+282,58,Medical Supply Company with Pharmacist,332B00000X ,Suppliers/Durable Medical Equipment & Medical Supplies
+248,48,Podiatry,213EG0000X,"Podiatric Medicine & Surgery Service Providers/Podiatrist, General Practice"
+138,22,Physician/Pathology,207ZD0900X,"Allopathic & Osteopathic Physicians/Pathology, Dermapathology"
+304,62,"Psychologist, Clinical",103TC2200X,"Behavioral Health & Social Service Providers/Psychologist, Clinical Child & Adolescent"
+99,16,Physician/Obstetrics & Gynecology,207VX0201X,"Allopathic & Osteopathic Physicians/Obstetrics & Gynecology, Gynecologic Oncology"
+144,22,Physician/Pathology,207ZN0500X,"Allopathic & Osteopathic Physicians/Pathology, Neuropathology"
+5,02,Physician/General Surgery,2086S0105X,Allopathic & Osteopathic Physicians/Surgery/Surgery of the Hand
+542,C5,Dentist,1223G0001X,Dental Providers/Dentist/General Practice
+151,23,Physician/Sports Medicine,204C00000X,"Allopathic & Osteopathic Physicians/Neuromusculoskeletal Medicine, Sports Medicine"
+105,16,Physician/Obstetrics & Gynecology,207VE0102X,"Allopathic & Osteopathic Physicians/Obstetrics & Gynecology, Reproductive Endocrinology"
+46,07,Physician/Dermatology,207ND0101X,"Allopathic & Osteopathic Physicians/Dermatology, MOHS-Micrographic Surgery"
+406,86,Physician/Neuropsychiatry,2084N0400X,"Allopathic & Osteopathic Physicians/ Psychiatry & Neurology, Neurology"
+127,20,Physician/Orthopedic Surgery,207XX0801X,"Allopathic & Osteopathic Physicians/Orthopedic Surgery, Orthopedic Trauma"
+199,36,Physician/Nuclear Medicine,207UN0901X,"Allopathic & Osteopathic Physicians/Nuclear Medicine, Nuclear Cardiology"
+225,38,Physician/Geriatric Medicine,207RG0300X,"Allopathic & Osteopathic Physicians/Internal Medicine, Geriatric Medicine"
+131,22,Physician/Pathology,207ZP0101X,"Allopathic & Osteopathic Physicians/Pathology, Anatomic Pathology"
+360,71,Registered Dietitian or Nutrition Professional,133V00000X ,"Dietary & Nutritional Service Providers/Dietician, Registered"
+483,A0[7],Hospitals,283XC2000X,Hospitals/General Acute Care Hospital/Children
+77,11,Physician/Internal Medicine,207RI0200X,"Allopathic & Osteopathic Physicians/Internal Medicine, Infectious Disease"
+427,89,Certified Clinical Nurse Specialist,364SH1100X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Holistic"
+474,A0[7],Hospital-Psychiatric (PPS excluded),283Q00000X,Hospitals/Psychiatric Hospital
+423,89,Certified Clinical Nurse Specialist,364SE0003X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Emergency"
+270,50,Nurse Practitioner,363LS0200X,"Physician Assistants & Advanced Practice Nursing Providers/Nurse Practitioner, School"
+152,23,Physician/Sports Medicine,2080S0010X,"Allopathic & Osteopathic Physicians/Pediatrics, Sports Medicine"
+205,37,Physician/Pediatric Medicine,2080H0002X,"Allopathic & Osteopathic Physicians/Pediatrics, Hospice and Palliative Medicine"
+321,62,"Psychologist, Clinical",103TW0100X,"Behavioral Health & Social Service Providers/Psychologist, Women"
+159,24,Physician/Plastic and Reconstructive Surgery,2082S0105X,"Allopathic & Osteopathic Physicians/Plastic Surgery, Surgery of the Hand"
+47,07,Physician/Dermatology,207ND0900X,"Allopathic & Osteopathic Physicians/Dermatology, Dermapathology"
+543,C6,Physician/Hospitalist,208M00000X ,Allopathic & Osteopathic Physicians/Hospitalist
+185,35,Chiropractic,111NI0013X,"Chiropractic Providers/Chiropractor, Independent Medical Examiner"
+446,89,Certified Clinical Nurse Specialist,364SP0813X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Geropsychiatric"
+154,23,Physician/Sports Medicine,2081S0010X,"Allopathic & Osteopathic Physicians/Physical Medicine & Rehabilitation, Sports Medicine"
+284,58,Medical Supply Company with Pharmacist,3336C0002X,"Suppliers/Pharmacy, Clinic Pharmacy"
+170,28,Physician/Colorectal Surgery (Proctology),208C00000X,Allopathic & Osteopathic Physicians/Colon & Rectal Surgery
+285,58,Medical Supply Company with Pharmacist,3336C0003X,"Suppliers/Pharmacy, Community/Retail Pharmacy"
+499,A5,Pharmacy ,333600000X,Suppliers/Pharmacy
+75,11,Physician/Internal Medicine,207RI0008X,"Allopathic & Osteopathic Physicians/Internal Medicine, Hepatology"
+533,B5,Ocularist ,156FX1700X,"Eye and Vision Services Providers, Technician/Technologist, Ocularist"
+353,68,"Psychologist, Clinical",103TC0700X,"Behavioral Health & Social Service Providers/Psychologist, Clinical"
+223,37,Physician/Pediatric Medicine,2080B0002X,Allopathic & Osteopathic Physicians/Pediatrics/Obesity Medicine
+266,50,Nurse Practitioner,363LP0222X,"Physician Assistants & Advanced Practice Nursing Providers/Nurse Practitioner, Pediatrics, Critical Care"
+492,A1[8],Skilled Nursing Facility,314000000X,Nursing and Custodial Care Facilities/Skilled Nursing Facility
+280,57,Individual Certified Prosthetist-Orthotist,229N00000X,"Respiratory, Developmental, Rehabilitative, and Restorative Service Providers/Anaplastologist"
+518,B2,Pedorthic personnel,224P00000X,"Respiratory, Developmental, Rehabilitative and Restorative Service Providers/Prosthetist"
+403,86,Physician/Neuropsychiatry,2084P0805X,"Allopathic & Osteopathic Physicians/ Psychiatry & Neurology, Geriatric Psychiatry"
+122,20,Physician/Orthopedic Surgery,207X00000X ,Allopathic & Osteopathic Physicians/Orthopedic Surgery
+211,37,Physician/Pediatric Medicine,2080P0203X,"Allopathic & Osteopathic Physicians/Pediatrics, Pediatric Critical Care Medicine"
+415,87[3],All Other Suppliers,332B00000X,Suppliers/Durable Medical Equipment & Medical Supplies
+94,15,Speech Language Pathologist,235Z00000X,"Speech, Language and Hearing Service Providers   "
+115,18,Physician/Ophthalmology,207WX0107X    ,"Allopathic & Osteopathic Physicians/Ophthalmology, Retina Specialist"
+451,90,Physician/Medical Oncology,207RX0202X,"Allopathic & Osteopathic Physicians/Internal Medicine, Medical Oncology"
+251,48,Podiatry,213ER0200X,"Podiatric Medicine & Surgery Service Providers/Podiatrist, Radiology"
+544,C7,Physician/Advanced Heart Failure and Transplant Cardiology,207RA0001X ,Allopathic & Osteopathic Physicians/Advanced Heart Failure and Transplant Cardiology
+110,17,Physician/Hospice and Palliative Care,207VH0002X,"Allopathic & Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Obstetrics & Gynecology"
+463,95,Advance Diagnostic Imaging,,
+433,89,Certified Clinical Nurse Specialist,364SN0800X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Neuroscience"
+241,45,Mammography Center,261QR0208X,"Ambulatory Health Care Facilities/Clinic-Center, Radiology, Mammography"
+230,40,Physician/Hand Surgery,207XS0106X,"Allopathic & Osteopathic Physicians/Orthopedic Surgery, Hand Surgery"
+366,71,Registered Dietitian or Nutrition Professional,133VN1301X,"Dietary & Nutritional Service Providers/Dietician, Registered, Nutrition, Oncology"
+0,01,Physician/General Practice,208D00000X,Allopathic & Osteopathic Physicians/General Practice
+36,04,Physician/Otolaryngology,207YS0012X,Allopathic & Osteopathic Physicians/Otolaryngology/Sleep Medicine
+55,08,Physician/Family Practice,207QG0300X,"Allopathic & Osteopathic Physicians/Family Medicine, Geriatric Medicine"
+466,97,Physician Assistant,363AM0700X,"Physician Assistants & Advanced Practice Nursing Providers/Physician Assistant, Medical"
+143,22,Physician/Pathology,207ZP0007X,"Allopathic & Osteopathic Physicians/Pathology, Molecular Genetic Pathology"
+107,17,Physician/Hospice and Palliative Care,207QH0002X,"Allopathic & Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Family Practice"
+260,50,Nurse Practitioner,363LG0600X,"Physician Assistants & Advanced Practice Nursing Providers/Nurse Practitioner, Gerontology"
+535,C0,Physician/Sleep Medicine,207RS0012X,"Allopathic & Osteopathic Physicians/Internal Medicine, Sleep Medicine"
+502,A5,Pharmacy ,3336C0004X,"Suppliers/Pharmacy, Compounding Pharmacy"
+20,02,Physician/General Surgery,207XX0801X,Allopathic & Osteopathic Physicians/Orthopedic Surgery/Orthopedic Trauma
+219,37,Physician/Pediatric Medicine,2080P0216X,"Allopathic & Osteopathic Physicians/Pediatrics, Pediatric Rheumatology"
+273,52,Medical Supply Company with Prosthetist,335E00000X,Suppliers/Prosthetic/Orthotic Supplier
+118,18,Physician/Ophthalmology,207WX0110X,Allopathic & Osteopathic Physicians/Ophthalmology/Pediatric Ophthalmology and Strabismus Specialist
+258,50,Nurse Practitioner,363LC0200X,"Physician Assistants & Advanced Practice Nursing Providers/Nurse Practitioner, Critical Care Medicine"
+559,E2,Mental Health Counselor ,101YM0800X,Behavioral Health & Social Service Providers/Counselor
+354,69,Clinical Laboratory,291U00000X,Laboratories/Clinical Medical Laboratory
+126,20,Physician/Orthopedic Surgery,207XS0117X,"Allopathic & Osteopathic Physicians/Orthopedic Surgery, Orthopedic Surgery of the Spine"
+233,41,Optometry,152WL0500X,"Eye and Vision Service Providers/Optometrist, Low Vision Rehabilitation"
+160,25,Physician/Physical Medicine and Rehabilitation,208100000X,Allopathic & Osteopathic Physicians/Physical Medicine & Rehabilitation
+534,C0,Physician/Sleep Medicine,207QS1201X,"Allopathic & Osteopathic Physicians/Family Medicine, Sleep Medicine"
+441,89,Certified Clinical Nurse Specialist,364SP0809X,"Physician Assistants & Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Adult"
+129,20,Physician/Orthopedic Surgery,207XX0005X,"Allopathic & Osteopathic Physicians/Orthopedic Surgery, Sports Medicine"
+361,71,Registered Dietitian or Nutrition Professional,133VN1006X,"Dietary & Nutritional Service Providers/Dietician, Registered, Nutrition, Metabolic"
+381,81,Physician/Critical Care (Intensivists),207RC0200X,"Allopathic & Osteopathic Physicians/Internal Medicine, Critical Care Medicine"
+538,C0,Physician/Sleep Medicine,2084S0012X,"Allopathic & Osteopathic Physicians/ Psychiatry & Neurology, Sleep Medicine"

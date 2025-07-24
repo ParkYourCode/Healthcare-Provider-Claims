@@ -6,7 +6,7 @@ import pandas as pd
 
 def read_nppes_data() -> pd.DataFrame:
     """Reads public NPPES data and performs basic cleaning"""
-    project_root = Path(__file__).parent
+    project_root = Path(__file__).parent.parent.parent
     filename = 'nppes_data.csv'
     input_path = project_root / 'data' / 'raw' / filename
     pickle_path = project_root / 'data' / 'cache' / filename
@@ -31,8 +31,11 @@ def read_nppes_data() -> pd.DataFrame:
             nppes_df.to_pickle(pickle_path)
 
         # save sample nppes data
-        sample_nppes_df = nppes_df.sample(n=100)
-        sample_nppes_df.to_csv("../../data/sample/sample_nppes_data.csv")
+        sample_path = "../../data/sample/sample_nppes_data.csv"
+        if not os.path.exists(sample_path):
+            sample_nppes_df = nppes_df.sample(n=100)
+            os.makedirs(os.path.dirname(sample_path), exist_ok=True)
+            sample_nppes_df.to_csv(sample_path)
 
         # drop empty taxonomies
         nppes_df = nppes_df[nppes_df[taxonomy_cols].notna().any(axis=1)]

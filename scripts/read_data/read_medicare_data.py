@@ -4,7 +4,7 @@ import pandas as pd
 
 def read_medicare_data() -> pd.DataFrame:
     """Reads medicare data and performs basic cleaning"""
-    project_root = Path(__file__).parent
+    project_root = Path(__file__).parent.parent.parent
     filename = 'medicare_data.csv'
     input_path = project_root / 'data' / 'raw' / filename
     pickle_path = project_root / 'data' / 'cache' / filename
@@ -28,8 +28,11 @@ def read_medicare_data() -> pd.DataFrame:
             medicare_df.to_pickle(pickle_path)
 
         # save sample medicare data
-        sample_medicare_df = medicare_df.sample(n=100)
-        sample_medicare_df.to_csv("../../data/sample/sample_medicare_data.csv")
+        sample_path = "../../data/sample/sample_medicare_data.csv"
+        if not os.path.exists(sample_path):
+            sample_medicare_df = medicare_df.sample(n=100)
+            os.makedirs(os.path.dirname(sample_path), exist_ok=True)
+            sample_medicare_df.to_csv(sample_path)
 
         # drop duplicate npi rows
         medicare_df.drop_duplicates(subset="Rndrng_NPI")

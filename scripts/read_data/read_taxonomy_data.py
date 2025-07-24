@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 def read_taxonomy_data():
-    project_root = Path(__file__).parent
+    project_root = Path(__file__).parent.parent.parent
     filename = 'taxonomy_data.csv'
     input_path = project_root / 'data' / 'raw' / filename
     pickle_path = project_root / 'data' / 'cache' / filename
@@ -16,8 +16,11 @@ def read_taxonomy_data():
             taxonomy_df.to_pickle(pickle_path)
 
         # save sample taxonomy data
-        sample_taxonomy_df = taxonomy_df.sample(n=100)
-        sample_taxonomy_df.to_csv("../../data/sample/sample_taxonomy_data.csv")
+        sample_path = "../../data/sample/sample_taxonomy_data.csv"
+        if not os.path.exists(sample_path):
+            sample_taxonomy_df = taxonomy_df.sample(n=100)
+            os.makedirs(os.path.dirname(sample_path), exist_ok=True)
+            sample_taxonomy_df.to_csv(sample_path)
 
         taxonomy_df = taxonomy_df.drop(["MEDICARE SPECIALTY CODE","MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION"], axis=1)
 
