@@ -15,6 +15,10 @@ def read_taxonomy_data():
             taxonomy_df = pd.read_csv(input_path, dtype=str)
             taxonomy_df.to_pickle(pickle_path)
 
+        # save sample taxonomy data
+        sample_taxonomy_df = taxonomy_df.sample(n=100)
+        sample_taxonomy_df.to_csv("../../data/sample/sample_taxonomy_data.csv")
+
         taxonomy_df = taxonomy_df.drop(["MEDICARE SPECIALTY CODE","MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION"], axis=1)
 
         taxonomy_df = taxonomy_df.rename(

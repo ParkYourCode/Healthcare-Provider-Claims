@@ -30,6 +30,10 @@ def read_nppes_data() -> pd.DataFrame:
             nppes_df = pd.read_csv(input_path, usecols=col_names+taxonomy_cols, dtype=str)
             nppes_df.to_pickle(pickle_path)
 
+        # save sample nppes data
+        sample_nppes_df = nppes_df.sample(n=100)
+        sample_nppes_df.to_csv("../../data/sample/sample_nppes_data.csv")
+
         # drop empty taxonomies
         nppes_df = nppes_df[nppes_df[taxonomy_cols].notna().any(axis=1)]
 

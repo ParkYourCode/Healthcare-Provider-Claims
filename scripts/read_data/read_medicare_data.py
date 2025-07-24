@@ -27,6 +27,10 @@ def read_medicare_data() -> pd.DataFrame:
             medicare_df = pd.read_csv(input_path, usecols=col_names, dtype=str)
             medicare_df.to_pickle(pickle_path)
 
+        # save sample medicare data
+        sample_medicare_df = medicare_df.sample(n=100)
+        sample_medicare_df.to_csv("../../data/sample/sample_medicare_data.csv")
+
         # drop duplicate npi rows
         medicare_df.drop_duplicates(subset="Rndrng_NPI")
 
